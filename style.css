@@ -1,0 +1,169 @@
+* {
+    background-color: #F3F3F3
+}
+
+body {
+  margin: 0;
+  font-family: Monserrat, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  /*background-color: #333;*/
+  padding: 10px;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: 1px solid #bbb;
+}
+
+.topnav a:hover {
+  /*background-color: #ddd;*/
+  color: #EEC908;
+}
+
+.topnav a.active {
+  float: left;
+  /*background-color: #EEC908;*/
+  color: #EEC908;
+  border-right: none;
+
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    border: 2px solid black;
+    margin-top: 50px
+}
+
+.profile_pic{
+    border:2px solid green
+}
+
+.profile_pic img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.text {
+    border:2px solid red;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.text H1 {
+    font-size: 40px;
+}
+
+.text H4 {
+    font-size: 20px;
+}
+
+
+.link {
+    border:2px solid pink;
+    height: 400px;
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*display: inline;*/
+    
+}
+
+.text-block1 {
+  /*position: absolute;*/
+  top: 10px;
+  left: 3px;
+  background-color: #EEA302;
+  color: white;
+  /*padding: 5%;*/
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  border: 1px solid black;
+
+
+}
+
+.word {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+
+    
+}
+
+.text-block1:hover,.text-block2:hover,.text-block3:hover {
+    background-color:#F3F3F3 ;
+
+}
+
+.text-block2 {
+  top: 10px;
+  right: 300px;
+  background-color: #FF3B25;
+  color: white;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.text-block3 {
+  /*position: absolute;*/
+  top: 10px;
+  right: 80px;
+  background-color: #80D8DA;
+  color: white;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+
+}
+
+.text-block1 a {
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-block2 a {
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-block3 a {
+    
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
